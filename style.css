@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #3257a1cd;
+    background-color: #2b5bbbcd;
     height: 150px;
 }
 
@@ -32,4 +32,5 @@ h1 {
     color: #EEEEEE;
     font-size: 80px;
     text-align: center;
+    font-family: 'STIX Two Math';
 }
