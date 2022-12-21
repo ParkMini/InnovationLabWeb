@@ -9,17 +9,29 @@ body {
 }
 
 header {
-    background-color: rgba(52, 62, 158, 0.722);
+    background-color: rgba(15, 22, 89, 0.722);
     height: 60px;
+    color: white;
+    line-height: 60px;
+    display: flex;
 }
 
 #LOGO {
     font-size: 30px;
 }
 
-a {
+a:link, a:visited { 
+    margin-left: 15rem;
     text-decoration: none;
     color: var(--text-color);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a:active {
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 img {
